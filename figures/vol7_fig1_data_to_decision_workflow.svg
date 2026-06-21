@@ -1,0 +1,46 @@
+<svg viewBox="0 0 980 540" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="a7" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#6b5d4f"/></marker>
+  </defs>
+  <rect width="980" height="540" fill="#fbfaf7"/>
+  <text x="40" y="40" font-size="22" font-weight="bold" fill="#2b2620">Figure 1. The Data-to-Decision Workflow</text>
+  <text x="40" y="64" font-size="14" fill="#5c5147">Five stages turn enterprise data into reliable decisions. Each stage carries a governing question.</text>
+
+  <!-- five stage boxes stacked -->
+  <g>
+    <rect x="60" y="92" width="860" height="68" rx="7" fill="#ffffff" stroke="#8a7a66" stroke-width="1.3"/>
+    <rect x="60" y="92" width="7" height="68" fill="#8a5a2b"/>
+    <text x="84" y="124" font-size="16" font-weight="bold" fill="#2b2620">1 &#183; Ingest and store</text>
+    <text x="430" y="124" font-size="13" font-style="italic" fill="#5c5147">Can the data be landed reliably and queried at the needed granularity?</text>
+
+    <rect x="60" y="176" width="860" height="68" rx="7" fill="#ffffff" stroke="#8a7a66" stroke-width="1.3"/>
+    <rect x="60" y="176" width="7" height="68" fill="#8a5a2b"/>
+    <text x="84" y="208" font-size="16" font-weight="bold" fill="#2b2620">2 &#183; Process at scale</text>
+    <text x="430" y="208" font-size="13" font-style="italic" fill="#5c5147">Does this transformation truly need distribution, or is single-node enough?</text>
+
+    <rect x="60" y="260" width="860" height="68" rx="7" fill="#f3ece1" stroke="#8a5a2b" stroke-width="1.8"/>
+    <rect x="60" y="260" width="7" height="68" fill="#8a5a2b"/>
+    <text x="84" y="286" font-size="16" font-weight="bold" fill="#2b2620">3 &#183; Engineer features</text>
+    <text x="84" y="306" font-size="11.5" fill="#8a5a2b" font-weight="bold">HIGH RETURN</text>
+    <text x="430" y="294" font-size="13" font-style="italic" fill="#5c5147">What signal does the decision depend on, and can it be computed leak-free?</text>
+
+    <rect x="60" y="344" width="860" height="68" rx="7" fill="#ffffff" stroke="#8a7a66" stroke-width="1.3"/>
+    <rect x="60" y="344" width="7" height="68" fill="#8a5a2b"/>
+    <text x="84" y="376" font-size="16" font-weight="bold" fill="#2b2620">4 &#183; Model</text>
+    <text x="430" y="376" font-size="13" font-style="italic" fill="#5c5147">What is the simplest model that captures the signal and shows what drives it?</text>
+
+    <rect x="60" y="428" width="860" height="68" rx="7" fill="#f3ece1" stroke="#8a5a2b" stroke-width="1.8"/>
+    <rect x="60" y="428" width="7" height="68" fill="#8a5a2b"/>
+    <text x="84" y="454" font-size="16" font-weight="bold" fill="#2b2620">5 &#183; Validate and monitor</text>
+    <text x="84" y="474" font-size="11.5" fill="#8a5a2b" font-weight="bold">HIGH RETURN</text>
+    <text x="430" y="462" font-size="13" font-style="italic" fill="#5c5147">Will this hold on unseen data, and will it keep holding as data drifts?</text>
+  </g>
+
+  <!-- connecting arrows -->
+  <line x1="490" y1="160" x2="490" y2="175" stroke="#6b5d4f" stroke-width="2" marker-end="url(#a7)"/>
+  <line x1="490" y1="244" x2="490" y2="259" stroke="#6b5d4f" stroke-width="2" marker-end="url(#a7)"/>
+  <line x1="490" y1="328" x2="490" y2="343" stroke="#6b5d4f" stroke-width="2" marker-end="url(#a7)"/>
+  <line x1="490" y1="412" x2="490" y2="427" stroke="#6b5d4f" stroke-width="2" marker-end="url(#a7)"/>
+
+  <text x="490" y="524" font-size="12.5" fill="#8a5a2b" text-anchor="middle" font-style="italic">Stages 3 and 5 are where decision quality is won. Stages 2 and 4 are where it is usually over-invested.</text>
+</svg>
