@@ -1,0 +1,38 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This license applies to the PAPER and FIGURES in this repository, specifically
+the contents of the /paper and /figures directories. The code in the /code
+directory is licensed separately under the MIT License (see LICENSE).
+
+Copyright (c) 2026 Alan Biju Palayil
+
+You are free to:
+
+  Share   Copy and redistribute the material in any medium or format.
+  Adapt   Remix, transform, and build upon the material for any purpose,
+          even commercially.
+
+Under the following terms:
+
+  Attribution  You must give appropriate credit, provide a link to the
+               license, and indicate if changes were made.
+
+  No additional restrictions  You may not apply legal terms or technological
+               measures that legally restrict others from doing anything the
+               license permits.
+
+Suggested attribution:
+
+  Palayil, Alan Biju. "Scalable Analytics for Enterprise Decisions: From
+  MapReduce to Holiday-Aware Demand Forecasting." Engineering-to-Research
+  Monograph Series, Volume 7, 2026. DOI: 10.5281/zenodo.20733992.
+  Licensed under CC BY 4.0.
+
+This is a human-readable summary of (and not a substitute for) the license.
+The full legal code is available at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+The deed is available at:
+
+  https://creativecommons.org/licenses/by/4.0/

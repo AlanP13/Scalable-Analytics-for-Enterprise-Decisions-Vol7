@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "upload_type": "publication",
+    "publication_type": "report",
+    "title": "Scalable Analytics for Enterprise Decisions: From MapReduce to Holiday-Aware Demand Forecasting",
+    "creators": [
+      {
+        "name": "Palayil, Alan Biju",
+        "orcid": "0009-0004-8302-5090",
+        "affiliation": "Independent Researcher; Doctoral Researcher, University of the Cumberlands"
+      }
+    ],
+    "description": "Enterprises do not lack data; they lack the path from data to decisions. That path has two halves usually taught and tooled apart: the infrastructure half (MapReduce, Spark, distributed storage) and the modeling half (turning features into accurate, trustworthy predictions). This report joins them into a single decision-oriented analytics workflow and argues a deliberately unfashionable thesis: for the tabular data on which most enterprise decisions rest, scale should be spent on feature quality and validation, not model complexity, and tree-ensemble models remain the rational default. The argument is grounded in two implementation studies: a holiday-aware retail demand-forecasting pipeline with engineered calendar and macroeconomic features, and an Extremely Randomized Trees model for vehicle-price prediction emphasizing feature importance for decision support. It contributes a five-stage data-to-decision workflow, a feature-first design principle, and an evaluation of modeling approaches for tabular enterprise data, and bridges to financial reconciliation and exception monitoring. Volume 7 of the Engineering-to-Research monograph series.",
+    "keywords": [
+      "big data",
+      "MapReduce",
+      "Spark",
+      "demand forecasting",
+      "feature engineering",
+      "tree ensembles",
+      "gradient boosting",
+      "extremely randomized trees",
+      "tabular data",
+      "enterprise analytics",
+      "financial operations"
+    ],
+    "license": "cc-by-4.0",
+    "language": "eng",
+    "version": "1.0",
+    "notes": "Volume 7 of 10 in the Engineering-to-Research monograph series. Companion code: github.com/AlanP13. Derived and rewritten from graduate coursework (ITS-836 Data Science and Big Data Analytics; MSDS-532 Data Science Programming) at the University of the Cumberlands. Contains no confidential employer information."
+  }
+}

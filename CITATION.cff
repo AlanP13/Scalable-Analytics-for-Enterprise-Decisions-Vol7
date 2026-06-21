@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "Scalable Analytics for Enterprise Decisions: From MapReduce to Holiday-Aware Demand Forecasting"
+abstract: >-
+  Enterprises do not lack data; they lack the path from data to decisions. This
+  monograph joins the infrastructure half (MapReduce, Spark) and the modeling
+  half (tree ensembles) into one decision-oriented analytics workflow, and
+  argues that for tabular enterprise data, better features and validation beat
+  bigger models. It is grounded in two implementation studies: a holiday-aware
+  retail demand-forecasting pipeline and an Extremely Randomized Trees model
+  for vehicle-price prediction. Volume 7 of the Engineering-to-Research
+  monograph series.
+type: report
+authors:
+  - family-names: "Palayil"
+    given-names: "Alan Biju"
+    orcid: "https://orcid.org/0009-0004-8302-5090"
+    affiliation: "Independent Researcher; Doctoral Researcher, University of the Cumberlands"
+version: "1.0"
+date-released: "2026-06-17"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/AlanP13/Scalable-Analytics-for-Enterprise-Decisions-Vol7"
+keywords:
+  - big data
+  - MapReduce
+  - Spark
+  - demand forecasting
+  - feature engineering
+  - tree ensembles
+  - gradient boosting
+  - extremely randomized trees
+  - tabular data
+  - enterprise analytics
+  - financial operations
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20733992"
+    description: "Zenodo DOI for version 1.0"
