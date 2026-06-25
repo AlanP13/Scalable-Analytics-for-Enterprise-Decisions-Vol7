@@ -1,0 +1,5 @@
+# Exclude large lecture videos and professor-provided data files
+*.mp4
+*.ppt
+*.RData
+.DS_Store
